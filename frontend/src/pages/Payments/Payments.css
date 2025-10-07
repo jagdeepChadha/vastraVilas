@@ -1,0 +1,85 @@
+/* General Container */
+.payment-container {
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .payment-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Payment Method Section */
+  .payment-method-container {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .payment-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .payment-method-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #444;
+  }
+  
+  .payment-method-radio {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  /* Stripe Card Element */
+  .card-element-container {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+  }
+  
+  .stripe-card-element {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Payment Button */
+  .payment-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background: #218838;
+  }
+  
+  .payment-button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+  

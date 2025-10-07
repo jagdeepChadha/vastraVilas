@@ -1,0 +1,179 @@
+.product-list {
+    width:100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background: blue;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: navy;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .pagination button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cancel-btn{
+    background-color: #5af0e8f6;
+    color: #333;
+  }
+
+  .search-space{
+    width: 100%;
+    height: 2.5rem;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    color: #333;
+  }
+
+  .category-filter{
+    width: 100%;
+    height: 2.5rem;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    color: #333;
+  }
+
+  .delete-btn{
+    margin: 0 10px;
+    background-color: red;
+  }
+
+  .delete-btn:hover{
+    background-color: rgb(119, 3, 3);
+  }
+
+/* Modal Box */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 350px;
+  max-width: 90%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers it properly */
+  z-index: 10000; /* Highest priority */
+}
+
+
+.confirm-btn {
+  background: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.confirm-btn:hover{
+  background-color: darkblue;
+}
+
+.cancel-btn {
+  background: gray;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ 
+.cancel-btn:hover{
+  background-color: rgb(34, 179, 56);
+}
+  
+  @media (max-width: 500px) {
+    .product-list {
+      max-width: 90%;
+    }
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    button {
+      margin-top: 5px;
+    }
+  }
+  

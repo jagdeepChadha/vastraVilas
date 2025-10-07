@@ -1,0 +1,171 @@
+.order-mod-page-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.order-mod-page-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.order-mod-page-info {
+    display: flex;
+    flex-wrap: wrap;
+    color: #111;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.order-mod-page-section {
+    flex: 1;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-mod-page-section h3 {
+    color: #000;
+    font-weight: bold;
+}
+
+.order-mod-page-summary {
+    font-weight: bold;
+    color: #111;
+}
+
+.order-mod-page-grand-total{
+    font-size: xx-large;
+    color: #28a745;
+}
+
+.order-mod-page-status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.order-mod-page-status-label {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.order-mod-page-order-summary-title{
+    font-size: xx-large;
+}
+
+.order-mod-page-status-label.pending {
+    background: #ffcc00;
+    color: #000;
+}
+
+.order-mod-page-status-label.processing {
+    background: #ff00ff;
+    color: #fff;
+}
+
+.order-mod-page-status-label.shipped {
+    background: #007bff;
+    color: #fff;
+}
+
+.order-mod-page-status-label.out-for-delivery {
+    background: #a77b28;
+    color: #fff;
+}
+
+.order-mod-page-status-label.delivered {
+    background: #28a745;
+    color: #fff;
+}
+
+.order-mod-page-status-label.cancelled {
+    background: #dc3545;
+    color: #fff;
+}
+
+.order-mod-page-product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order-mod-page-product-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.order-mod-page-product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.order-mod-page-product-name{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #007bff;
+}
+
+.order-mod-page-product-details p {
+    margin: 5px 0;
+    color: #111;
+}
+
+.order-mod-page-product-details p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.order-mod-page-cancel-button,
+.order-mod-page-home-button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-mod-page-cancel-button {
+    background: #ff4d4d;
+    color: white;
+}
+
+.order-mod-page-home-button {
+    background: #007bff;
+    color: white;
+}
+
+.order-mod-page-invoice-button{
+    background-color: green;
+    color: white;
+}
+
+.order-mod-page-cancelled-message {
+    text-align: center;
+    font-weight: bold;
+    color: #ff4d4d;
+}
